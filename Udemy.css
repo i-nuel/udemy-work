@@ -101,7 +101,7 @@ nav a {
   display: flex;
   flex-direction: column;
   height: 60vh;
-  background: url(/img/udemy\ bike.jpeg);
+  background: url(udemy\ bike.jpeg);
   background-size: 1400px;
   background-repeat: no-repeat;
   padding-top: 80px;
