@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100vh;
+}
+
+.first {
+border-bottom: 1px solid rgb(187, 182, 182);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 540;
+}
+
+header {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-content: space-between;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  width: 570px;
+  height: 28px;
+  background-color: rgb(246, 249, 252);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  outline: 1px solid grey;
+}
+
+.box i {
+  font-size: 17px;
+  color: rgb(99, 96, 96);
+  padding-left: 7px;
+}
+
+.box input {
+  flex: 1;
+  height: 40px;
+  border: 0px;
+  outline: none;
+  font-size: 18px;
+  padding-left: 14px;
+  background-color: transparent;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(24, 23, 23);
+}
+
+.circle {
+  display: flex;
+  background-color: black;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  color: white;
+  justify-content: center;
+}
+
+.circle span {
+  font-weight: bold;
+  padding-top: 8px;
+  justify-items: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  height: 7vh;
+  box-shadow: rgba(61, 60, 60, 0.707) 0px 4px 6px 0px;
+}
+
+.navigation nav {
+  justify-items: space-around;
+  align-content: space-between;
+  width: 1200px;
+  padding: 12px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  background: url(/img/udemy\ bike.jpeg);
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+.main div {
+  color: rgb(24, 23, 23);
+  line-height: 25px;
+  box-shadow: rgba(146, 141, 141, 0.707) 0px 2px 8px 0px;
+  width: 440px;
+  height: 200px;
+  background-color: white;
+}
+
+.main h1 {
+  display: flex;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  
+}
+
+.main p {
+  display: flex;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+.footer {
+  display: flex;
+  height: 15vh;
+  justify-content: space-between;
+}
+
+.footer h1 {
+  font-size: 35px;
+  padding-left: 30px;
+  color: rgb(24, 23, 23);
+}
+
+.footer a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 50px;
+  font-weight: 800;
+  color: rgb(62, 30, 138);
+  text-decoration-line: underline;
+}
